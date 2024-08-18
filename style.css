@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #647299;
+}
+.container {
+    width: 25rem;
+    margin: auto;
+}
+#displayInput {
+    height: 6rem;
+    width:23rem;
+    background: #181F32;
+    border: 0px;
+    font-size: 3rem;
+    color:#b8babf;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    padding: 15px;
+}
+.container {
+    justify-content: center;
+    text-align: center;
+}
+.containerButton {
+    background: #252D44;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px 0px;
+}
+.containerButton .inputButton {
+    width: 5rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 12px;
+    border: 0px;
+}
+.containerButton .lastRow .button1{
+    width: 10.6rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
+    border-radius: 12px;
+    border: 0px;
+}
+#equalButton {
+    background: #D13F30;
+}
+#delButton, #resetButton {
+    background: #647299;
+}
+.inputButton:hover {
+    background-color: #b8babf;
+}
+#delButton:hover {
+    background: #48557b;
+}
+#resetButton:hover {
+    background: #48557b;
+}
+#equalButton:hover {
+    background: #ad3123;
+}
+.textLogo {
+    margin-right:20rem;
+    color: white;
+}
