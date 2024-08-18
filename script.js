@@ -28,6 +28,7 @@ buttonsArray.forEach(btn => {
         }else{
             string += event.target.innerHTML;
             display.value = string;
+            display.scrollLeft = display.scrollWidth;
         }
         
     })
